@@ -1,0 +1,6 @@
+/pycache/
+config.yaml
+db.sqlite3
+Pipfile
+Pipfile.lock
+.idea

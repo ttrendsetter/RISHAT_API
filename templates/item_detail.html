@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <p>Item detail</p>
+    <p>{{ item.name }}</p>
+    <p>{{ item.description }}</p>
+    <p>{{ item.price }}</p>
+    <button id="buy-button">Buy</button>
+    <script type="text/javascript">
+        document.getElementById('buy-button').onclick = function(){
+            alert("Sorry, but I couldn't link django and node.js");
+            }
+    </script>
+
+{% endblock content %}
